@@ -9,6 +9,9 @@ public class NumberFormater {
         double payment=input.nextDouble();
         input.close();
         Locale indiaLocale=new Locale("en", "IN");
-
+        NumberFormat india= NumberFormat.getCurrencyInstance(indiaLocale);
+        NumberFormat china= NumberFormat.getCurrencyInstance(Locale.CHINA);
+        NumberFormat france= NumberFormat.getCurrencyInstance(Locale.FRANCE);
+        NumberFormat us=NumberFormat.getCurrencyInstance(Locale.US);
     }
 }
