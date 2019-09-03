@@ -8,6 +8,7 @@ public class NumberFormater {
         Scanner input=new Scanner(System.in);
         double payment=input.nextDouble();
         input.close();
+        Locale indiaLocale=new Locale("en", "IN");
 
     }
 }
