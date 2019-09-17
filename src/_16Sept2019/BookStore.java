@@ -1,28 +1,34 @@
 package _16Sept2019;
 
-class BookDetails{
+class BookDetails {
     private String bookname;
     private String author;
     private double isbn;
 
-    public String getBookname(){
+    public BookDetails(String bookname, String author, double isbn) {
+        setAuthor(author);
+        setBookname(bookname);
+        setIsbn(isbn);
+    }
+
+    public String getBookname() {
         return bookname;
     }
 
-    public String getAuthor(){
-        return author;
+    public void setBookname(String bookname) {
+        this.bookname = bookname;
     }
 
-    public double getIsbn(){
-        return isbn;
+    public String getAuthor() {
+        return author;
     }
 
     public void setAuthor(String author) {
         this.author = author;
     }
 
-    public void setBookname(String bookname) {
-        this.bookname = bookname;
+    public double getIsbn() {
+        return isbn;
     }
 
     public void setIsbn(double isbn) {
