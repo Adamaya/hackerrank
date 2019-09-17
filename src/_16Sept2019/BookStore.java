@@ -28,6 +28,15 @@ class BookDetails{
     public void setIsbn(double isbn) {
         this.isbn = isbn;
     }
+
+    @Override
+    public String toString() {
+        return "----------------------------------" +
+                "Book Name:" + bookname + '\n' +
+                "Author Name:" + author + '\n' +
+                "ISBN:" + isbn +
+                "---------------------------------";
+    }
 }
 
 public class BookStore {
