@@ -1,22 +1,22 @@
 package _16Sept2019;
 
 class BookDetails {
-    private String bookname;
+    private String bookName;
     private String author;
     private double isbn;
 
-    public BookDetails(String bookname, String author, double isbn) {
+    public BookDetails(String bookName, String author, double isbn) {
         setAuthor(author);
-        setBookname(bookname);
+        setBookname(bookName);
         setIsbn(isbn);
     }
 
-    public String getBookname() {
-        return bookname;
+    public String getBookName() {
+        return bookName;
     }
 
-    public void setBookname(String bookname) {
-        this.bookname = bookname;
+    public void setBookname(String bookName) {
+        this.bookName = bookName;
     }
 
     public String getAuthor() {
@@ -38,7 +38,7 @@ class BookDetails {
     @Override
     public String toString() {
         return "----------------------------------" +
-                "Book Name:" + bookname + '\n' +
+                "Book Name:" + bookName + '\n' +
                 "Author Name:" + author + '\n' +
                 "ISBN:" + isbn +
                 "---------------------------------";
