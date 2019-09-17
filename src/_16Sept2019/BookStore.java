@@ -55,6 +55,14 @@ public class BookStore {
         input.nextLine();
         if (entryNo > 0) {
             BookDetails[] bd = new BookDetails[entryNo];
+            for (int i = 0; i < entryNo; i++) {
+                System.out.println("Enter the name:");
+                String name = input.nextLine();
+                String author = input.nextLine();
+                long isbn = input.nextLong();
+                input.nextLine();
+                bd[i] = new BookDetails(name, author, isbn);
+            }
 
         } else {
             System.out.println("N/A");
