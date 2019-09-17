@@ -63,7 +63,9 @@ public class BookStore {
                 input.nextLine();
                 bd[i] = new BookDetails(name, author, isbn);
             }
-
+            for (int j = 0; j < entryNo; j++) {
+                System.out.println(bd[j].toString());
+            }
         } else {
             System.out.println("N/A");
         }
