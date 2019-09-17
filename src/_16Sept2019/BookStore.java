@@ -54,6 +54,7 @@ public class BookStore {
         int entryNo = input.nextInt();
         input.nextLine();
         if (entryNo > 0) {
+            BookDetails[] bd = new BookDetails[entryNo];
 
         } else {
             System.out.println("N/A");
