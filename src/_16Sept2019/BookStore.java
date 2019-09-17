@@ -5,11 +5,11 @@ import java.util.Scanner;
 class BookDetails {
     private String bookName;
     private String author;
-    private double isbn;
+    private long isbn;
 
-    public BookDetails(String bookName, String author, double isbn) {
+    public BookDetails(String bookName, String author, long isbn) {
         setAuthor(author);
-        setBookname(bookName);
+        setBookName(bookName);
         setIsbn(isbn);
     }
 
@@ -17,7 +17,7 @@ class BookDetails {
         return bookName;
     }
 
-    public void setBookname(String bookName) {
+    public void setBookName(String bookName) {
         this.bookName = bookName;
     }
 
@@ -33,7 +33,7 @@ class BookDetails {
         return isbn;
     }
 
-    public void setIsbn(double isbn) {
+    public void setIsbn(long isbn) {
         this.isbn = isbn;
     }
 
@@ -50,8 +50,10 @@ class BookDetails {
 public class BookStore {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        System.out.println("Enter the number of entries:");
         int entryNo = input.nextInt();
         input.nextLine();
+
 
     }
 }
