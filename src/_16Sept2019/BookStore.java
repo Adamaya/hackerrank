@@ -53,7 +53,11 @@ public class BookStore {
         System.out.println("Enter the number of entries:");
         int entryNo = input.nextInt();
         input.nextLine();
+        if (entryNo > 0) {
 
+        } else {
+            System.out.println("N/A");
+        }
 
     }
 }
