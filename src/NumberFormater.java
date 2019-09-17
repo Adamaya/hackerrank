@@ -17,5 +17,6 @@ public class NumberFormater {
         System.out.println("China "+china.format(payment));
         System.out.println("France "+france.format(payment));
         System.out.println("US "+us.format(payment));
+
     }
 }
