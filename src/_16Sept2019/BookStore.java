@@ -1,5 +1,7 @@
 package _16Sept2019;
 
+import java.util.Scanner;
+
 class BookDetails {
     private String bookName;
     private String author;
@@ -37,16 +39,17 @@ class BookDetails {
 
     @Override
     public String toString() {
-        return "----------------------------------" +
-                "Book Name:" + bookName + '\n' +
-                "Author Name:" + author + '\n' +
-                "ISBN:" + isbn +
-                "---------------------------------";
+        return "----------------------------------" + '\n' +
+                "Book Name:" + '\t' + bookName + '\n' +
+                "Author Name:" + '\t' + author + '\n' +
+                "ISBN:" + '\t' + isbn + '\n' +
+                "----------------------------------";
     }
 }
 
 public class BookStore {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
     }
 }
