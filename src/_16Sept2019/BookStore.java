@@ -50,7 +50,6 @@ class BookDetails {
 public class BookStore {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("Enter the number of entries:");
         int entryNo = input.nextInt();
         input.nextLine();
         if (entryNo > 0) {
