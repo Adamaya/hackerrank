@@ -61,6 +61,9 @@ public class Solution {
         input.nextLine();
         if (noPlayer > 0 && noPlayer < 100) {
             playerdetails[] pd = new playerdetails[noPlayer];
+            for (int i = 0; i < noPlayer; i++) {
+
+            }
         }
     }
 }
