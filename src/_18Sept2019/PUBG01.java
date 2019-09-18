@@ -54,7 +54,8 @@ class playerdetails {
     }
 
 }
-public class Solution {
+
+public class PUBG01 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int noPlayer = input.nextInt();
