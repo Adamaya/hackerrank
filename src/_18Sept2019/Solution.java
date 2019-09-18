@@ -59,5 +59,8 @@ public class Solution {
         Scanner input = new Scanner(System.in);
         int noPlayer = input.nextInt();
         input.nextLine();
+        if (noPlayer > 0 && noPlayer < 100) {
+
+        }
     }
 }
