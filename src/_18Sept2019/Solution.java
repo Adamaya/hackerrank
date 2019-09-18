@@ -69,6 +69,7 @@ public class Solution {
                 input.nextLine();
                 pd[i] = new playerdetails(name, uname, level, highscore);
             }
+            String header = String.format("%10s\t%10s\t%10s\t%10s", "Player", "UserName", "Level", "Score");
         }
     }
 }
