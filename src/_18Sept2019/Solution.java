@@ -67,6 +67,7 @@ public class Solution {
                 String level = input.nextLine();
                 int highscore = input.nextInt();
                 input.nextLine();
+                pd[i] = new playerdetails(name, uname, level, highscore);
             }
         }
     }
