@@ -38,6 +38,11 @@ class playerdetails {
         this.highscore = highscore;
 
     }
+
+    @Override
+    public String toString() {
+        return String.format("%10s\t%10s\t%10s\t%10d\n", getName(), getUname(), getLevel(), getHighscore());
+    }
 }
 public class Solution {
 
