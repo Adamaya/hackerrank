@@ -60,7 +60,7 @@ public class Solution {
         int noPlayer = input.nextInt();
         input.nextLine();
         if (noPlayer > 0 && noPlayer < 100) {
-
+            playerdetails[] pd = new playerdetails[noPlayer];
         }
     }
 }
