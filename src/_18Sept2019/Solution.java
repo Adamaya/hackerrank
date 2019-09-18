@@ -1,5 +1,7 @@
 package _18Sept2019;
 
+import java.util.Scanner;
+
 class playerdetails {
     private String name;
     private String uname;
@@ -54,6 +56,6 @@ class playerdetails {
 }
 public class Solution {
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in);
     }
 }
