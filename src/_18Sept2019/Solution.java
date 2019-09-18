@@ -72,7 +72,7 @@ public class Solution {
             String header = String.format("%10s\t%10s\t%10s\t%10s", "Player", "UserName", "Level", "Score");
             System.out.println(header);
             for (int i = 0; i < noPlayer; i++) {
-
+                System.out.println(pd[i].toString());
             }
         }
     }
