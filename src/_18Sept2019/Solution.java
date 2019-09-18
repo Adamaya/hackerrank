@@ -70,6 +70,7 @@ public class Solution {
                 pd[i] = new playerdetails(name, uname, level, highscore);
             }
             String header = String.format("%10s\t%10s\t%10s\t%10s", "Player", "UserName", "Level", "Score");
+            System.out.println(header);
         }
     }
 }
