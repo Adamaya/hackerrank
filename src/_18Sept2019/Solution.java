@@ -62,7 +62,11 @@ public class Solution {
         if (noPlayer > 0 && noPlayer < 100) {
             playerdetails[] pd = new playerdetails[noPlayer];
             for (int i = 0; i < noPlayer; i++) {
-
+                String name = input.nextLine();
+                String uname = input.nextLine();
+                String level = input.nextLine();
+                int highscore = input.nextInt();
+                input.nextLine();
             }
         }
     }
