@@ -43,6 +43,14 @@ class playerdetails {
     public String toString() {
         return String.format("%10s\t%10s\t%10s\t%10d\n", getName(), getUname(), getLevel(), getHighscore());
     }
+
+    public playerdetails(String name, String uname, String level, int highscore) {
+        setName(name);
+        setUname(uname);
+        setLevel(level);
+        setHighscore(highscore);
+    }
+
 }
 public class Solution {
 
