@@ -5,6 +5,12 @@ public class User {
     private String companyNmae;
     private String dateOfJoining;
 
+    public User(String uName, String companyNmae, String dateOfJoining) {
+        this.uName = uName;
+        this.companyNmae = companyNmae;
+        this.dateOfJoining = dateOfJoining;
+    }
+
     public String getuName() {
         return uName;
     }
