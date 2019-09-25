@@ -3,11 +3,11 @@ package _2hSept2019;
 public class User {
     private String uName;
     private String companyNmae;
-    private String dateOfJoining;
+    private int dateOfJoining;
     private String uEmail;
     private String uPassword;
 
-    public User(String uName, String companyNmae, String dateOfJoining) {
+    public User(String uName, String companyNmae, int dateOfJoining) {
         this.uName = uName;
         this.companyNmae = companyNmae;
         this.dateOfJoining = dateOfJoining;
@@ -34,11 +34,11 @@ public class User {
         this.companyNmae = companyNmae;
     }
 
-    public String getDateOfJoining() {
+    public int getDateOfJoining() {
         return dateOfJoining;
     }
 
-    public void setDateOfJoining(String dateOfJoining) {
+    public void setDateOfJoining(int dateOfJoining) {
         this.dateOfJoining = dateOfJoining;
     }
 
@@ -48,9 +48,5 @@ public class User {
 
     public String getuPassword() {
         return uPassword;
-    }
-
-    public String toString() {
-
     }
 }
