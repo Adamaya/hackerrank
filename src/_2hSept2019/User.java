@@ -11,6 +11,11 @@ public class User {
         this.uName = uName;
         this.companyNmae = companyNmae;
         this.dateOfJoining = dateOfJoining;
+        this.uEmail = createUserEmail();
+    }
+
+    private String createUserEmail() {
+        return String.format("%s_%d@%s", getuName(), getDateOfJoining(), getCompanyNmae());
     }
 
     public String getuName() {
