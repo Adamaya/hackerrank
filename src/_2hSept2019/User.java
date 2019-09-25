@@ -36,4 +36,16 @@ public class User {
     public void setDateOfJoining(String dateOfJoining) {
         this.dateOfJoining = dateOfJoining;
     }
+
+    public String getuEmail() {
+        return uEmail;
+    }
+
+    public String getuPassword() {
+        return uPassword;
+    }
+
+    public String toString() {
+
+    }
 }
