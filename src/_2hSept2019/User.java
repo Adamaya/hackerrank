@@ -4,6 +4,8 @@ public class User {
     private String uName;
     private String companyNmae;
     private String dateOfJoining;
+    private String uEmail;
+    private String uPassword;
 
     public User(String uName, String companyNmae, String dateOfJoining) {
         this.uName = uName;
