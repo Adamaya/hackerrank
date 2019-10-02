@@ -12,8 +12,9 @@ public class Ques9 {
             int val = inputCharArray[i];
             if (val >= 65 && val <= 90) {
                 sumUpper += val;
-            }
+            } else if (val >= 97 && val <= 122) {
 
+            }
         }
     }
 }
