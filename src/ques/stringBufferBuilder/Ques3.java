@@ -16,6 +16,6 @@ public class Ques3 {
         newString = newString.replace('I', '*');
         newString = newString.replace('O', '*');
         newString = newString.replace('U', '*');
-
+        System.out.println(newString);
     }
 }
