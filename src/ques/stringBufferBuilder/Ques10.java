@@ -6,6 +6,7 @@ public class Ques10 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         String inputString = input.nextLine();
+        char findCharIndex = input.nextLine().charAt(0);
 
     }
 }
