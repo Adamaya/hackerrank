@@ -7,5 +7,6 @@ public class Ques2 {
         Scanner input = new Scanner(System.in);
         String inputString = input.nextLine();
         int subStringRange = input.nextInt();
+        System.out.println(inputString.substring(0, subStringRange));
     }
 }
