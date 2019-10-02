@@ -15,8 +15,9 @@ public class Ques9 {
             } else if (val >= 97 && val <= 122) {
                 sumLower += val;
             }
-            int absval = sumLower - sumUpper;
 
         }
+        int absval = sumLower - sumUpper;
+        System.out.println("Absolute Value: " + absval);
     }
 }
