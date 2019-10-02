@@ -11,5 +11,6 @@ public class Ques7 {
             int val = inputCharArray[i];
             sum += val;
         }
+        System.out.println("Total Weight: " + sum);
     }
 }
