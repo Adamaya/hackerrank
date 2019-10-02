@@ -10,6 +10,8 @@ public class Ques1 {
         for (int i = 0; i < arrayInputString.length; i++) {
             System.out.print(i + "\t");
         }
+        System.out.println();
+        System.out.print("chars:\t");
 
 
     }
