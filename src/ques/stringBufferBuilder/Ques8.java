@@ -13,5 +13,6 @@ public class Ques8 {
                 sum += val;
             }
         }
+        System.out.println("UpperWeight: " + sum);
     }
 }
