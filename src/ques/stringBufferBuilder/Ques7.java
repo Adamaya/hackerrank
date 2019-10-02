@@ -9,8 +9,7 @@ public class Ques7 {
         char[] inputCharArray = input.nextLine().toCharArray();
         for (int i = 0; i < inputCharArray.length; i++) {
             int val = inputCharArray[i];
-
-
+            sum += val;
         }
     }
 }
