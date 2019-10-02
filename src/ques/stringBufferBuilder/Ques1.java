@@ -12,7 +12,8 @@ public class Ques1 {
         }
         System.out.println();
         System.out.print("chars:\t");
-
-
+        for (int i = 0; i < arrayInputString.length; i++) {
+            System.out.print(arrayInputString[i] + "\t");
+        }
     }
 }
