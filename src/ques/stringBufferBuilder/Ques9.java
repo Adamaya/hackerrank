@@ -13,7 +13,7 @@ public class Ques9 {
             if (val >= 65 && val <= 90) {
                 sumUpper += val;
             } else if (val >= 97 && val <= 122) {
-
+                sumLower += val;
             }
         }
     }
