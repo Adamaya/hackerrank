@@ -7,5 +7,8 @@ public class Ques8 {
         int sum = 0;
         Scanner input = new Scanner(System.in);
         char[] inputCharArray = input.nextLine().toCharArray();
+        for (int i = 0; i < inputCharArray.length; i++) {
+
+        }
     }
 }
