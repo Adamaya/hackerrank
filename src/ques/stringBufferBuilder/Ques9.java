@@ -15,6 +15,8 @@ public class Ques9 {
             } else if (val >= 97 && val <= 122) {
                 sumLower += val;
             }
+            int absval = sumLower - sumUpper;
+
         }
     }
 }
