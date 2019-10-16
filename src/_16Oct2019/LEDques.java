@@ -68,5 +68,7 @@ class LEDStrip {
     }
 }
 public class LEDques {
+    public static void main(String[] args) {
 
+    }
 }
