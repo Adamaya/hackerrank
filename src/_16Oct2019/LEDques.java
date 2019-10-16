@@ -1,5 +1,7 @@
 package _16Oct2019;
 
+import java.util.Scanner;
+
 class LED {
     private String color;
     private boolean working;
@@ -69,6 +71,6 @@ class LEDStrip {
 }
 public class LEDques {
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in);
     }
 }
