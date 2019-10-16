@@ -24,6 +24,9 @@ class LED {
     public void setWorking(boolean working) {
         this.working = working;
     }
+}
+
+class LEDStrip {
 
 }
 public class LEDques {
