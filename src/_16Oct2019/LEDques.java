@@ -27,7 +27,17 @@ class LED {
 }
 
 class LEDStrip {
+    private int lengthOfStrip() {
 
+    }
+
+    private int numberOfDefectiveLEDs() {
+
+    }
+
+    private boolean isDefective() {
+
+    }
 }
 public class LEDques {
 }
