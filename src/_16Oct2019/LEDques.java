@@ -72,5 +72,7 @@ class LEDStrip {
 public class LEDques {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        int numberOfLed = input.nextInt();
+
     }
 }
