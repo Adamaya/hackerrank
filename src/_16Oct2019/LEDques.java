@@ -80,6 +80,8 @@ public class LEDques {
             boolean working = input.nextBoolean();
             ledArray[i] = new LED(color, working);
         }
+        LEDStrip ledStrip = new LEDStrip(ledArray);
+
 
     }
 }
