@@ -74,5 +74,7 @@ public class LEDques {
         Scanner input = new Scanner(System.in);
         int numberOfLed = input.nextInt();
 
+        LED[] ledArray = new LED[numberOfLed];
+
     }
 }
