@@ -81,7 +81,7 @@ public class LEDques {
             ledArray[i] = new LED(color, working);
         }
         LEDStrip ledStrip = new LEDStrip(ledArray);
-
-
+        System.out.println(ledStrip.stripStatus());
+        input.close();
     }
 }
