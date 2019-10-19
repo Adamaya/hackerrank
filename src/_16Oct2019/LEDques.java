@@ -75,6 +75,11 @@ public class LEDques {
         int numberOfLed = input.nextInt();
 
         LED[] ledArray = new LED[numberOfLed];
+        for (int i = 0; i < numberOfLed; i++) {
+            String color = input.next();
+            boolean working = input.nextBoolean();
+            ledArray[i] = new LED(color, working);
+        }
 
     }
 }
