@@ -41,6 +41,6 @@ class Main {
         int hours = timeConvertor.secondsToHours(totalSeconds);
         int minutes = timeConvertor.secondsToMinutes(totalSeconds);
         int seconds = timeConvertor.secondsToSeconds(totalSeconds);
-
+        System.out.println(hours + " " + ((hours > 1) ? "hours" : "hour") + ", " + minutes + " " + ((minutes > 1) ? "minutes" : "minute") + " and " + seconds + " " + ((seconds > 1) ? "seconds" : "second"));
     }
 }
