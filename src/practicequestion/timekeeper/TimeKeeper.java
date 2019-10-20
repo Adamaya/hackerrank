@@ -44,4 +44,9 @@ public class TimeKeeper {
         double percentage = (totalSeconds / 86400) * 100;
         return percentage;
     }
+
+}
+
+class Main {
+
 }
