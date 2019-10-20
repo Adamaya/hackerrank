@@ -1,5 +1,7 @@
 package practicequestion.jionewplan;
 
+import java.util.Scanner;
+
 public class MonthlyBillCalculator {
     private int numberOfMinutes;
 
@@ -26,6 +28,7 @@ public class MonthlyBillCalculator {
 
 class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
     }
 }
