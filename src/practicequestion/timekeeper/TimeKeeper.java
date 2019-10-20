@@ -57,5 +57,6 @@ class Main {
         double seconds = input.nextDouble();
         TimeKeeper timeKeeper = new TimeKeeper(hours, minutes, seconds);
         System.out.println("Number of Seconds from midnight: " + (int) timeKeeper.numberOfSecondsFromMidnight());
+        System.out.println("Percentage of day that have passed: " + timeKeeper.percentageOfDayThatHavePassed(timeKeeper.numberOfSecondsFromMidnight()) + "%");
     }
 }
