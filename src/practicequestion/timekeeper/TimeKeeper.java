@@ -48,5 +48,7 @@ public class TimeKeeper {
 }
 
 class Main {
+    public static void main(String[] args) {
 
+    }
 }
