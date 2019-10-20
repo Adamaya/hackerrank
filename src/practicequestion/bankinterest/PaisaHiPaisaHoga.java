@@ -39,6 +39,6 @@ class Main {
         double principalMoney = input.nextDouble();
         double rate = input.nextDouble();
         PaisaHiPaisaHoga paisaHiPaisaHoga = new PaisaHiPaisaHoga(principalMoney, rate);
-
+        System.out.println("Years to take to double the principal money: " + paisaHiPaisaHoga.duration(paisaHiPaisaHoga.getRate()));
     }
 }
