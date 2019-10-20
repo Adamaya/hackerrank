@@ -10,4 +10,8 @@ public class TimeConvertor {
     public void setSeconds(double seconds) {
         this.seconds = seconds;
     }
+
+    public TimeConvertor(double seconds) {
+        this.seconds = seconds;
+    }
 }
