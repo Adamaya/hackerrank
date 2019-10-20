@@ -17,6 +17,6 @@ public class TimeConvertor {
 
     public int secondsToHours(double seconds) {
         int hours = (int) seconds / 60 / 60;
-
+        return hours;
     }
 }
