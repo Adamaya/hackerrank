@@ -4,6 +4,11 @@ public class PaisaHiPaisaHoga {
     private double principalMoney;
     private double rate;
 
+    public PaisaHiPaisaHoga(double principalMoney, double rate) {
+        this.principalMoney = principalMoney;
+        this.rate = rate;
+    }
+
     public double getPrincipalMoney() {
         return principalMoney;
     }
