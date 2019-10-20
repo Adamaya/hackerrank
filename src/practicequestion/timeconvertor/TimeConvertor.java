@@ -14,4 +14,8 @@ public class TimeConvertor {
     public TimeConvertor(double seconds) {
         this.seconds = seconds;
     }
+
+    public int secondsToHours(double seconds) {
+
+    }
 }
