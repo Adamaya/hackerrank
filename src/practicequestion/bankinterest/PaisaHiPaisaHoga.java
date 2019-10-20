@@ -38,6 +38,6 @@ class Main {
         Scanner input = new Scanner(System.in);
         double principalMoney;
         double rate;
-
+        PaisaHiPaisaHoga paisaHiPaisaHoga = new PaisaHiPaisaHoga(principalMoney, rate);
     }
 }
