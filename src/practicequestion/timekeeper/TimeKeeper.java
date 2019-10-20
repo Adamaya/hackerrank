@@ -55,5 +55,6 @@ class Main {
         double hours = input.nextDouble();
         double minutes = input.nextDouble();
         double seconds = input.nextDouble();
+        TimeKeeper timeKeeper = new TimeKeeper(hours, minutes, seconds);
     }
 }
