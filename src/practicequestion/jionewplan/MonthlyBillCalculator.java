@@ -19,7 +19,7 @@ public class MonthlyBillCalculator {
 
     public double MonthlyBill(int numberOfMinutes) {
         double bill;
-        double callAmount = (300 - numberOfMinutes) * 1.2;
+        double callAmount = (numberOfMinutes - 300) * 1.2;
         double gstAmount = (callAmount * 18) / 100;
         bill = callAmount + gstAmount;
         return bill;
@@ -31,6 +31,6 @@ class Main {
         Scanner input = new Scanner(System.in);
         int numberOfMinutes = input.nextInt();
         input.close();
-
+        MonthlyBillCalculator monthlyBillCalculator = new MonthlyBillCalculator(numberOfMinutes);
     }
 }
