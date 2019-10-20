@@ -56,5 +56,6 @@ class Main {
         double minutes = input.nextDouble();
         double seconds = input.nextDouble();
         TimeKeeper timeKeeper = new TimeKeeper(hours, minutes, seconds);
+        System.out.println("Number of Seconds from midnight: " + (int) timeKeeper.numberOfSecondsFromMidnight());
     }
 }
