@@ -20,6 +20,6 @@ public class MonthlyBillCalculator {
         double callAmount = (300 - numberOfMinutes) * 1.2;
         double gstAmount = (callAmount * 18) / 100;
         bill = callAmount + gstAmount;
-
+        return bill;
     }
 }
