@@ -34,4 +34,8 @@ public class TimeKeeper {
     public void setSeconds(double seconds) {
         this.seconds = seconds;
     }
+
+    public int numberOfSecondsFromMidnight() {
+
+    }
 }
