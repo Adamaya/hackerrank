@@ -7,8 +7,11 @@ public class Numbercounter {
         Scanner input = new Scanner(System.in);
         int number = input.nextInt();
         input.close();
-        for (int i = 0; i < number; i++) {
-
+        StringBuilder sb = new StringBuilder();
+        int sum = 0;
+        for (int i = 1; i < number + 1; i++) {
+            sum = sum + i;
         }
+
     }
 }
