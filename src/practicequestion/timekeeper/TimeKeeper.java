@@ -1,5 +1,7 @@
 package practicequestion.timekeeper;
 
+import java.util.Scanner;
+
 public class TimeKeeper {
     private double hour;
     private double minute;
@@ -49,6 +51,7 @@ public class TimeKeeper {
 
 class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
     }
 }
