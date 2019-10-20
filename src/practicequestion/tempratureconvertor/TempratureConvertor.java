@@ -28,6 +28,6 @@ class Main {
         Scanner input = new Scanner(System.in);
         double celsius = input.nextDouble();
         TempratureConvertor tempratureConvertor = new TempratureConvertor(celsius);
-
+        System.out.println(tempratureConvertor.getCelsius() + " C = " + tempratureConvertor.celsiusToFahrenheit(celsius) + "F");
     }
 }
