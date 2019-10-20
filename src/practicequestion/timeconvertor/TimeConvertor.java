@@ -22,5 +22,7 @@ public class TimeConvertor {
 }
 
 class Main {
+    public static void main(String[] args) {
 
+    }
 }
