@@ -9,6 +9,10 @@ public class TempratureConvertor {
         return celsius;
     }
 
+    public TempratureConvertor(double celsius) {
+        this.celsius = celsius;
+    }
+
     public void setCelsius(double celsius) {
         this.celsius = celsius;
     }
@@ -23,7 +27,7 @@ class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double celsius = input.nextDouble();
-        TempratureConvertor tempratureConvertor = new TempratureConvertor();
+        TempratureConvertor tempratureConvertor = new TempratureConvertor(celsius);
 
     }
 }
