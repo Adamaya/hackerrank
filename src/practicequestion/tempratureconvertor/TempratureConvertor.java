@@ -1,5 +1,7 @@
 package practicequestion.tempratureconvertor;
 
+import java.util.Scanner;
+
 public class TempratureConvertor {
     private double celsius;
 
@@ -19,6 +21,6 @@ public class TempratureConvertor {
 
 class Main {
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in)
     }
 }
