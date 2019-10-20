@@ -14,4 +14,8 @@ public class PremMandir {
     public void setMileage(double mileage) {
         this.mileage = mileage;
     }
+
+    public double doesCarIsEfficient(double mileage) {
+
+    }
 }
