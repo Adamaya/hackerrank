@@ -14,7 +14,7 @@ public class TempratureConvertor {
     }
 
     public double celsiusToFahrenheit(double tempInCelsius) {
-        double fahrenheit = tempInCelsius * (9 / 5) * 32;
+        double fahrenheit = tempInCelsius * (9 / 5) + 32;
         return fahrenheit;
     }
 }
@@ -24,5 +24,6 @@ class Main {
         Scanner input = new Scanner(System.in);
         double celsius = input.nextDouble();
         TempratureConvertor tempratureConvertor = new TempratureConvertor();
+
     }
 }
