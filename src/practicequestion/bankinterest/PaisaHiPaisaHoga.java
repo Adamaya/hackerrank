@@ -30,3 +30,7 @@ public class PaisaHiPaisaHoga {
         return duration;
     }
 }
+
+class Main {
+
+}
