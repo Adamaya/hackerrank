@@ -16,3 +16,7 @@ public class TempratureConvertor {
         return fahrenheit;
     }
 }
+
+class Main {
+
+}
