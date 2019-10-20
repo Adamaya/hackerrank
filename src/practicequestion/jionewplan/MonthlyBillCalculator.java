@@ -14,4 +14,8 @@ public class MonthlyBillCalculator {
     public MonthlyBillCalculator(int numberOfMinutes) {
         this.numberOfMinutes = numberOfMinutes;
     }
+
+    public double MonthlyBill(int numberOfMinutes) {
+
+    }
 }
