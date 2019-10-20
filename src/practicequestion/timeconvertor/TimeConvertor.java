@@ -31,14 +31,16 @@ public class TimeConvertor {
         int second = (int) seconds % 60;
         return second;
     }
-
 }
 
 class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double seconds = input.nextDouble();
-        TimeConvertor timeConvertor = new TimeConvertor(seconds);
+        double totalSeconds = input.nextDouble();
+        TimeConvertor timeConvertor = new TimeConvertor(totalSeconds);
+        int hours = timeConvertor.secondsToHours(totalSeconds);
+        int minutes = timeConvertor.secondsToMinutes(totalSeconds);
+        int seconds = timeConvertor.secondsToSeconds(totalSeconds);
 
     }
 }
