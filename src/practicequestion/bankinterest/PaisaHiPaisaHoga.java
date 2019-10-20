@@ -25,7 +25,7 @@ public class PaisaHiPaisaHoga {
         this.rate = rate;
     }
 
-    public int duration(double principalMoney, double rate) {
+    public double duration(double rate) {
 
     }
 }
