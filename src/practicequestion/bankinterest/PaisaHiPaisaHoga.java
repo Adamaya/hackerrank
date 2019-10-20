@@ -1,5 +1,7 @@
 package practicequestion.bankinterest;
 
+import java.util.Scanner;
+
 public class PaisaHiPaisaHoga {
     private double principalMoney;
     private double rate;
@@ -33,6 +35,6 @@ public class PaisaHiPaisaHoga {
 
 class Main {
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in);
     }
 }
