@@ -1,5 +1,7 @@
 package practicequestion.timeconvertor;
 
+import java.util.Scanner;
+
 public class TimeConvertor {
     private double seconds;
 
@@ -23,6 +25,6 @@ public class TimeConvertor {
 
 class Main {
     public static void main(String[] args) {
-
+        Scanner input = new Scanner(System.in);
     }
 }
