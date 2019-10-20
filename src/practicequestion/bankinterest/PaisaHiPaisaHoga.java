@@ -36,8 +36,9 @@ public class PaisaHiPaisaHoga {
 class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        double principalMoney;
-        double rate;
+        double principalMoney = input.nextDouble();
+        double rate = input.nextDouble();
         PaisaHiPaisaHoga paisaHiPaisaHoga = new PaisaHiPaisaHoga(principalMoney, rate);
+
     }
 }
