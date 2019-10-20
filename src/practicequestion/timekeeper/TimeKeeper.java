@@ -37,6 +37,6 @@ public class TimeKeeper {
 
     public int numberOfSecondsFromMidnight() {
         double seconds = getHour() * 3600 + getMinute() * 60 + getSeconds();
-
+        return (int) seconds;
     }
 }
