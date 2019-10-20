@@ -29,6 +29,8 @@ public class MonthlyBillCalculator {
 class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
+        int numberOfMinutes = input.nextInt();
+        input.close();
 
     }
 }
