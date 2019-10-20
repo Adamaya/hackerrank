@@ -27,6 +27,6 @@ class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double mileage = input.nextDouble();
-
+        PremMandir premMandir = new PremMandir(mileage);
     }
 }
