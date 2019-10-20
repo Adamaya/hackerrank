@@ -24,4 +24,8 @@ public class PaisaHiPaisaHoga {
     public void setRate(double rate) {
         this.rate = rate;
     }
+
+    public int duration(double principalMoney, double rate) {
+
+    }
 }
