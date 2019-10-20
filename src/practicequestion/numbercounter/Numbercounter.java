@@ -12,6 +12,12 @@ public class Numbercounter {
         for (int i = 1; i < number + 1; i++) {
             sum = sum + i;
         }
+        for (int i = 1; i < number + 1; i++) {
+            if (i < number)
+                sb.append(i + "+");
+            else
+                sb.append(i + "=");
+        }
 
     }
 }
