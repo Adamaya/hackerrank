@@ -20,3 +20,7 @@ public class TimeConvertor {
         return hours;
     }
 }
+
+class Main {
+
+}
