@@ -18,7 +18,8 @@ public class MonthlyBillCalculator {
     public double MonthlyBill(int numberOfMinutes) {
         if (numberOfMinutes <= 300) {
             double bill = 0;
-        }
+        } else if (numberOfMinutes > 300) {
 
+        }
     }
 }
