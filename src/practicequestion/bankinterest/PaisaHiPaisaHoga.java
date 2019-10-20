@@ -27,6 +27,6 @@ public class PaisaHiPaisaHoga {
 
     public double duration(double rate) {
         double duration = 100 / rate;
-
+        return duration;
     }
 }
