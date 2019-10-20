@@ -12,6 +12,6 @@ public class TempratureConvertor {
     }
 
     public double celsiusToFahrenheit(double tempInCelsius) {
-
+        double fahrenheit = tempInCelsius * (9 / 5) * 32;
     }
 }
