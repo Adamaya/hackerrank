@@ -27,7 +27,10 @@ public class TimeConvertor {
         return minutes;
     }
 
-
+    public int secondsToSeconds(double seconds) {
+        int second = (int) seconds % 60;
+        return second;
+    }
 
 }
 
