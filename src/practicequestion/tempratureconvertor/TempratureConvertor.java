@@ -23,5 +23,6 @@ class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         double celsius = input.nextDouble();
+        TempratureConvertor tempratureConvertor = new TempratureConvertor();
     }
 }
