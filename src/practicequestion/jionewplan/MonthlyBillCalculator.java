@@ -16,6 +16,10 @@ public class MonthlyBillCalculator {
     }
 
     public double MonthlyBill(int numberOfMinutes) {
+        double bill;
+        double callAmount = (300 - numberOfMinutes) * 1.2;
+        double gstAmount = (callAmount * 18) / 100;
+        bill = callAmount + gstAmount;
 
     }
 }
