@@ -32,5 +32,11 @@ class Main {
         int numberOfMinutes = input.nextInt();
         input.close();
         MonthlyBillCalculator monthlyBillCalculator = new MonthlyBillCalculator(numberOfMinutes);
+        if (monthlyBillCalculator.MonthlyBill(numberOfMinutes) < 0) {
+            System.out.println("Monthly Bill: 0");
+        } else {
+            System.out.println("Monthly Bill: " + monthlyBillCalculator.MonthlyBill(numberOfMinutes));
+        }
+
     }
 }
