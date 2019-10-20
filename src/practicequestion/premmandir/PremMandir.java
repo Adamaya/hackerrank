@@ -16,6 +16,11 @@ public class PremMandir {
     }
 
     public double doesCarIsEfficient(double mileage) {
-
+        double cost = (12 / mileage) * 80 + (1 * 12);
+        return cost;
     }
+}
+
+class Main {
+
 }
