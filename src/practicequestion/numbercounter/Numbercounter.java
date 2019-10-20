@@ -18,6 +18,7 @@ public class Numbercounter {
             else
                 sb.append(i + "=");
         }
-
+        System.out.print(sb);
+        System.out.print(sum);
     }
 }
