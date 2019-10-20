@@ -52,6 +52,8 @@ public class TimeKeeper {
 class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-
+        double hours = input.nextDouble();
+        double minutes = input.nextDouble();
+        double seconds = input.nextDouble();
     }
 }
