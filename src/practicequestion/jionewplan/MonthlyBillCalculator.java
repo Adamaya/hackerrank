@@ -23,3 +23,7 @@ public class MonthlyBillCalculator {
         return bill;
     }
 }
+
+class Main {
+
+}
