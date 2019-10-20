@@ -21,6 +21,14 @@ public class TimeConvertor {
         int hours = (int) seconds / 60 / 60;
         return hours;
     }
+
+    public int secondsToMinutes(double seconds) {
+        int minutes = (int) seconds / 60 % 60;
+        return minutes;
+    }
+
+
+
 }
 
 class Main {
@@ -28,5 +36,6 @@ class Main {
         Scanner input = new Scanner(System.in);
         double seconds = input.nextDouble();
         TimeConvertor timeConvertor = new TimeConvertor(seconds);
+
     }
 }
