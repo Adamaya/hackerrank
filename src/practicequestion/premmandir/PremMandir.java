@@ -1,5 +1,7 @@
 package practicequestion.premmandir;
 
+import java.util.Scanner;
+
 public class PremMandir {
     private double mileage;
 
@@ -23,6 +25,7 @@ public class PremMandir {
 
 class Main {
     public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
 
     }
 }
