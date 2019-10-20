@@ -1,3 +1,6 @@
+/*
+ * interest system considered as simple interest
+ * */
 package practicequestion.bankinterest;
 
 import java.util.Scanner;
