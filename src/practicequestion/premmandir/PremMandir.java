@@ -28,5 +28,7 @@ class Main {
         Scanner input = new Scanner(System.in);
         double mileage = input.nextDouble();
         PremMandir premMandir = new PremMandir(mileage);
+        String Efficient = (premMandir.doesCarIsEfficient(premMandir.getMileage()) > 40) ? "Auto is Efficient" : "Car is Efficient";
+        System.out.println(Efficient);
     }
 }
