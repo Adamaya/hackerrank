@@ -35,8 +35,12 @@ public class TimeKeeper {
         this.seconds = seconds;
     }
 
-    public int numberOfSecondsFromMidnight() {
+    public double numberOfSecondsFromMidnight() {
         double seconds = getHour() * 3600 + getMinute() * 60 + getSeconds();
-        return (int) seconds;
+        return seconds;
+    }
+
+    public double percentageOfDayThatHavePassed(double totalSeconds) {
+
     }
 }
