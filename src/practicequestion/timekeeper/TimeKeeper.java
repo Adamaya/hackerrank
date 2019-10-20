@@ -41,6 +41,7 @@ public class TimeKeeper {
     }
 
     public double percentageOfDayThatHavePassed(double totalSeconds) {
+        double percentage = (totalSeconds / 86400) * 100;
 
     }
 }
