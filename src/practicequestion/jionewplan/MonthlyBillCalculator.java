@@ -10,4 +10,8 @@ public class MonthlyBillCalculator {
     public void setNumberOfMinutes(int numberOfMinutes) {
         this.numberOfMinutes = numberOfMinutes;
     }
+
+    public MonthlyBillCalculator(int numberOfMinutes) {
+        this.numberOfMinutes = numberOfMinutes;
+    }
 }
