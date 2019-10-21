@@ -12,5 +12,6 @@ public class ValueOfPi {
             int j = (i % 2 == 0) ? -1 : 1;
             sum = sum + j * (1 / (2 * i - 1));
         }
+        System.out.println(String.format("%.6g%n", sum));
     }
 }
