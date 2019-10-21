@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class MyCalculator {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int n = input.nextInt();
-        int p = input.nextInt();
-
+        double n = input.nextDouble();
+        double p = input.nextDouble();
+        System.out.println(Math.pow(n, p));
     }
 }
