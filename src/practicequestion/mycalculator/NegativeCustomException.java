@@ -8,6 +8,6 @@ public class NegativeCustomException extends Exception {
     }
 
     public String toString() {
-        return numberDetails + " Negative number not Allowed";
+        return "n and p must not be negative";
     }
 }
