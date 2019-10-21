@@ -14,6 +14,6 @@ public class MyCalculator {
         } else if (n == 0 || p == 0) {
             throw new ZeroCustomException();
         }
-
+        System.out.println(Math.pow(n, p));
     }
 }
